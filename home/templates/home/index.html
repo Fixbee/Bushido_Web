@@ -1,0 +1,193 @@
+{% extends 'home/navbar.html' %}
+{% load static %}
+
+{% block title %}welcome{% endblock %}
+{% block navbar %}
+<!-- Banner -->
+			<section id="banner">
+				<div class="content">
+					<img src="{% static 'home/images/logo.png' %}" id="banner-logo" alt="Couldn't display image" width="200" height="200">
+					<p>Academy of Martial arts and Fitness Hub</p>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Let's Get Started!</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<h1 class="banner-text">What We offer</h1>
+				<div class="inner flex flex-3">
+					<div class="flex-item left">
+						<div>
+							<h3>All skill Level</h3>
+							<p>Testing consists of demonstration of<br/>techniques thus developing a unique skill</p>
+						</div>
+						<div id="sm-none" class="move-left">
+							<h3>Fully Qualified</h3>
+							<p>Karate is a sequence of moments<br/>and represt various offensive tatics</p>
+						</div>
+						<div class="move-left">
+							<h3>Fully Qualified</h3>
+							<p>Karate is a sequence of moments<br/>and represt various offensive tatics</p>
+						</div>
+					</div>
+					<div class="flex-item image fit ">
+						<img src="{% static 'home/images/rsz_1nijil.png' %}" alt="unable to display image" >
+					</div>
+					<div class="flex-item right">
+						<div>
+							<h3>Get Healthy and fit</h3>
+							<p>Typically this performance is in union of a<br/>technique or set of techniques</p>
+						</div>
+						<div id="sm-none">
+							<h3>Traditional Karate</h3>
+							<p>Traditional Karate places emphasis on self<br />-development, preservence and fearlessness</p>
+						</div>
+						<div>
+							<h3>Traditional Karate</h3>
+							<p>Traditional Karate places emphasis on self<br />-development, preservence and fearlessness</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--counterup section-->
+			<section class="counterup-area" id="counter">
+				<h3>Our Results in numbers</h3>
+				<p><em>A 1985 study found that children in martial arts have an increased <br> sense of responsibility and a higher
+						sense of self-esteem</em></p>
+				<!--container for holding all counterups-->
+				<div class="counterup-content-container">
+					<!--Parent container structure for holding a single counters-->
+					<div class="single-counterup">
+						<!--single container for holding a single counter-->
+						<div class="counterup-content">
+							<p><span class="counter">10</span></p>
+							<h2>National <br> Champions</h2>
+						</div>
+					</div>
+					<div class="single-counterup">
+						<div class="counterup-content">
+							<p><span class="counter">15</span></p>
+							<h2>City <br> champions</h2>
+						</div>
+					</div>
+					<div class="single-counterup">
+						<div class="counterup-content">
+							<p><span class="counter">20</span></p>
+							<h2>Gold <br> medalists</h2>
+						</div>
+					</div>
+					<div class="single-counterup">
+						<div class="counterup-content">
+							<p><span class="counter">25</span></p>
+							<h2>All <br> Medals</h2>
+						</div>
+					</div>
+				</div>
+				<a href="/achievements/" class="more-btn">More</a>
+			</section>
+			<!-- Main area End -->
+
+		<!--will add gallery here-->
+		<div class="gallery" id="photogallery">
+			<h1>Photogallery</i></h1>
+			<div class="box alt">
+				<div class="row 50% uniform">
+					<div class="4u"><span class="image fit"><img src="{% static 'home/images/1.jpg' %}" alt="" /></span></div>
+					<div class="4u"><span class="image fit"><img src="{% static 'home/images/2-min.jpeg' %}" alt="" /></span></div>
+					<div class="4u$"><span class="image fit"><img src="./images/3-min.jpeg" alt="" /></span></div>
+					<!-- Break -->
+					<div class="4u"><span class="image fit"><img src="{% static 'home/images/4-min.jpeg' %}" alt="" /></span></div>
+					<div class="4u"><span class="image fit"><img src="{% static 'home/images/5-min.jpg' %}" alt="" /></span></div>
+					<div class="4u$"><span class="image fit"><img src="{% static 'home/images/100-min.jpeg'% }" alt="" /></span></div>
+					<!-- Break -->
+					<div class="4u"><span class="image fit"><img src="{% static 'home/images/70-min.jpeg' %}" alt="" /></span></div>
+					<div class="4u"><span class="image fit"><img src="{% static 'home/images/80-min.jpeg' %}" alt="" /></span></div>
+					<div class="4u$"><span class="image fit"><img src="{% static 'home/images/90-min.jpeg' %}" alt="" /></span></div>
+				</div>
+				<a href="/gallery/" class="more-btn">More</a>
+			</div>
+		</div>
+
+	<!-- https://www.youtube.com/watch?v=kX6MLRc_Qmg for instructors part -->
+		<!-- will add Our instructors here -->
+			<section class="leaders">
+				<div class="container">
+					<h1 class="heading">Meet The Leaders</h1>
+					<div class="card-wrapper">
+						<div class="card">
+							<!-- <img src="" class="card-img" alt=""> -->
+							<!--this is a coverup img-->
+							<img src="https://wallpaperplay.com/walls/full/1/2/b/5089.jpg" class="card-img">
+							<!--this is the profile image-->
+							<img src="{% static 'home/images/Bushido Coaches/manoj george.jpg' %}"
+								class="profile-img">
+							<!--this is the member's name-->
+							<h1>Manoj George</h1>
+							<!--This is his job title-->
+							<p class="job-title">Shihan</p>
+							<!--About him/her-->
+							<p class="about man">Director, pathanamthitta Dist. <br> Karate-Do Assossiation Secretary <br><span>...</span></p>
+							<!--Contact details-->
+							<a href="#" class="btn">Contact</a>
+							<!--his/her social media links-->
+							<ul class="social-media">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							</ul>
+						</div>
+			
+						<div class="card">
+							<img src="https://wallpaperplay.com/walls/full/1/2/b/5089.jpg" class="card-img">
+							<img src="{% static 'home/images/Bushido Coaches/blesson lois.jpg' %}"
+								class="profile-img">
+							<h1>Blesson louis</h1>
+							<p class="job-title">Shihan</p>
+							<p class="about pad">Technical Director <br><span>... <br> ...</span></p>
+							<!--Contact details-->
+							<a href="#" class="btn">Contact</a>
+							<ul class="social-media">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							</ul>
+						</div>
+			
+						<div class="card">
+							<img src="https://wallpaperplay.com/walls/full/1/2/b/5089.jpg" class="card-img">
+							<img src="{% static 'home/images/Bushido Coaches/Anup.jpg' %}"
+								class="profile-img">
+							<h1>Anup S Nair</h1>
+							<p class="job-title">Sensi</p>
+							<p class="about">Chief instructor, Reffree <br> commission, Chairman <br><span>..</span></p>
+							<a href="#" class="btn">Contact</a>
+							<ul class="social-media">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							</ul>
+						</div>
+			
+						<div class="card">
+							<img src="https://wallpaperplay.com/walls/full/1/2/b/5089.jpg" class="card-img">
+							<img src="{% static 'home/images/Bushido Coaches/sharath.jpg' %}"
+								class="profile-img">
+							<h1>Adv.Sharath Eldo Philip</h1>
+							<p class="job-title">Shihan</p>
+							<p class="about sha">Director, legal Advisor, KKA <br> <span>...</span></p>
+							<a href="#" class="btn">Contact</a>
+							<ul class="social-media">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<a href="/instructors/" class="more-btn-inst">More</a>
+			</section>
+
+{% endblock %}
